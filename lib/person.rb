@@ -1,11 +1,7 @@
 class Person 
-  def initialize (name, job)
-    @name = name
-    @job = job
-  end
   
-  def name 
-    puts @name
+  def name (person_name)
+    @name = person_name
   end
   
 end 
